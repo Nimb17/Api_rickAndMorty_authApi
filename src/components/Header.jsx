@@ -1,4 +1,4 @@
-import style from "./Header.css"
+import "./Header.css"
 import logo from "../assets/logo.svg"
 import { Link, NavLink } from "react-router-dom"
 import { ApiContext } from "../context/Context"
