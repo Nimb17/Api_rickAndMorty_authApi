@@ -1,0 +1,39 @@
+.container{
+  
+  max-width: 1300px;
+  height: 87vh;
+  margin: 20px auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 2fr;    
+}
+
+.container__auth{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.container__bgImg{
+  height: 100%;  
+}
+
+.container__bgImg img{
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+  border-radius: 20px;
+}
+
+@media (max-width: 1000px){
+  .container{    
+    max-width: 700px;
+    grid-template-columns: 1fr;    
+  }
+
+  .container__bgImg{
+    display: none; 
+  }
+}

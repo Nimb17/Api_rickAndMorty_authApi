@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100dvh;   
+  background: #ebf8ef;
+  background: url('/vite.svg') repeat center;
+  background: radial-gradient(
+    circle,
+    #ebf5eb 0%,
+    #e0f4d8af 35%,   
+  );
+   
+}
+
+
+/* ======= scrollbar ======= */
+
+
+::-webkit-scrollbar {
+  background-color: #f2f6fe3d; /* color de fondo */
+  width: 10px; /* ancho del scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #42b3ca65; /* color del thumb */
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 3px; /* borde redondeado */
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 3px; /* borde redondeado */
+}
