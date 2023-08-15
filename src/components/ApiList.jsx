@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import style from "./ApiList.module.css"
-import InputFilter from './inputFilter'
+import InputFilter from '../components/inputFilter'
 
 const ApiList = (props) => {
 
