@@ -6,7 +6,7 @@
 }
 
 body {
-  height: 100dvh;   
+  padding: 0 10px;  
   background: #ebf8ef;
   background: url('/vite.svg') repeat center;
   background: radial-gradient(
