@@ -1,6 +1,0 @@
-[build]
-  publish = "dist"
-  command = "vite build"
-
-[context.production.environment]
-  VITE_SOME_KEY = "some value"
