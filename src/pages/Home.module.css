@@ -9,11 +9,12 @@
 }
 
 .contentApi {
-  display: flex;
-  flex-direction: column;
-  max-width: 1300px;
+  display: grid;   
   justify-content: center;
-  gap: 30px;
+  align-items: center;  
+  justify-self: center;
+  align-self: center;
+  width: 100%;    
 }
 
 .contentHero {

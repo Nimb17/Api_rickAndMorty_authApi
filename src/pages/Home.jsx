@@ -1,6 +1,7 @@
 import style from "./Home.module.css"
 import { ApiContext } from "../context/Context"
 import ApiList from "../components/ApiList"
+import ApiListTabs from "../components/ApiListTabs"
 import imgHome from "../assets/imgHome.png"
 import Footer from "../components/Footer"
 import StatusIcon from "../components/StatusIcon"
@@ -40,24 +41,8 @@ const Home = () => {
 
       </div>
 
-      <div className={style.contentApi}>
-        <ApiList
-          titulo={"Characters"}
-          list={resultCharacter}
-          details={"detailsCharacter"}
-        />
-
-        <ApiList
-          titulo={"Locations"}
-          list={resultLocation}
-          details={"detailsLocation"}
-        />
-
-        <ApiList
-          titulo={"Episodes"}
-          list={resultEpisode}
-          details={"detailsEpisode"}
-        />
+      <div className={style.contentApi}>  
+        <ApiListTabs/>        
       </div>
 
       <Footer />
