@@ -10,11 +10,12 @@
 
 .contentApi {
   display: grid;   
-  justify-content: center;
-  align-items: center;  
-  justify-self: center;
-  align-self: center;
-  width: 100%;    
+  /* justify-content: center;
+  align-items: center;   */
+  /* justify-self: center; */
+  /* align-self: center; */
+  max-width: 1150px;
+  
 }
 
 .contentHero {
@@ -115,9 +116,18 @@
   }
 }
 
-@media (max-width:440px){
+@media (max-width:466px){
   .contentHero img {    
     width: 100%;
+  }
+  .contentApi {
+    display: grid;   
+    /* justify-content: center;
+    align-items: center;   */
+    /* justify-self: center; */
+    /* align-self: center; */
+    width: 90vw;
+    
   }
 }
 

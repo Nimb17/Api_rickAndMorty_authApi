@@ -22,6 +22,7 @@ const AuthComponent = (props) => {
 
             <p className={style['signup-link']}> {props.textHref} <Link to={props.href} className={style.linkDecoration} >{props.linkToggle}</Link>
             </p>
+            <p  className={style['emailTest']}> email test: "eve.holt@reqres.in" </p>
         </form>
     )
 }

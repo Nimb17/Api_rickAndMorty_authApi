@@ -10,7 +10,7 @@
     /* overflow-y: scroll; */
     background-color: #b2e0e2;
     border: black solid 2px;
-    border-radius: 20px 0 20px 20px;
+    border-radius: 20px;
     box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -2px #0000000d;
   }
 
@@ -137,14 +137,9 @@
       gap: 20px;
     }
 
-    .titulo {
+   /*  .titulo {
       display: none;
-    }
-
-    .tabsChange{     
-      flex-direction: row;   
-      flex-wrap: wrap;   
-    } 
+    }  */   
 
     .group {
       display: flex;
@@ -175,6 +170,12 @@
 
     .container {
       grid-template-columns: 1fr;
+    }
+
+    .titulo{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px;
     }
 
     .card {      
